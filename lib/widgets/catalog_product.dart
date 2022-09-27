@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' as rootBundle;
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
-import 'Model/prod_model.dart';
-import 'controller.dart';
+import '../Model/prod_model.dart';
+import '../controller/controller.dart';
 
 class CatalogProducts extends StatelessWidget {
   const CatalogProducts({Key? key}) : super(key: key);
@@ -112,12 +112,11 @@ class CatalogProductsCard extends StatelessWidget {
             ),
             Text(
               product[index].p_details.toString(),
-              style:
-                  const TextStyle(fontSize: 30, fontWeight: FontWeight.normal),
+              style: const TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
             ),
             Text(
-              product[index].p_availability.toString(),
-              style: const TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+              'Availability-${product[index].p_availability.toString()}',
+              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
           ],
         ),

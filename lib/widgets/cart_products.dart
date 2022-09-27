@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:get/instance_manager.dart';
-import 'Model/prod_model.dart';
-import 'controller.dart';
+import '../Model/prod_model.dart';
+import '../controller/controller.dart';
 
 class CartProducts extends StatelessWidget {
   final CartController controller = Get.find();
@@ -13,7 +13,7 @@ class CartProducts extends StatelessWidget {
   Widget build(BuildContext context) {
     return Obx(
       (() => SizedBox(
-            height: 700,
+            height: 500,
             child: SingleChildScrollView(
               scrollDirection: Axis.vertical,
               child: ListView.builder(
@@ -54,12 +54,10 @@ class CartProductCard extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        //crossAxisAlignment: CrossAxisAlignment.center,
-        // mainAxisSize: MainAxisSize.max,
         children: [
-          Container(
-            width: 150,
-            height: 150,
+          SizedBox(
+            width: 100,
+            height: 100,
             child: Image(
               image: NetworkImage(product.imageURL.toString()),
               fit: BoxFit.fill,
@@ -71,7 +69,11 @@ class CartProductCard extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Text(product.p_name.toString()),
+              Text(
+                product.p_name.toString(),
+                style:
+                    const TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+              ),
               Text(
                 '\$${product.p_cost}',
                 style:

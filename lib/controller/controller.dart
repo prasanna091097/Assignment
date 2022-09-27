@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'Model/prod_model.dart';
+import '../Model/prod_model.dart';
 
 class CartController extends GetxController {
   final _products = {}.obs;

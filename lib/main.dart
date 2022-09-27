@@ -1,4 +1,4 @@
-import 'package:assignmt_app/homepage.dart';
+import 'package:assignmt_app/screens/homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

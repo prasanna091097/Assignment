@@ -1,13 +1,13 @@
 import 'dart:convert';
 import 'package:assignmt_app/Model/prod_model.dart';
-import 'package:assignmt_app/cart_screen.dart';
+import 'package:assignmt_app/screens/cart_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' as rootBundle;
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 
-import 'catalog_product.dart';
-import 'controller.dart';
+import '../widgets/catalog_product.dart';
+import '../controller/controller.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
