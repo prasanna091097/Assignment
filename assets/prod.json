@@ -1,0 +1,42 @@
+[
+    {
+    "imageURL" :"https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2016%2F04%2FApple-Fruit-PNG-Pic.png&f=1&nofb=1&ipt=d0d029718c4b9faa0fd5a77c84de4a76a75dcfb05ac5f177997322656deb5ae5&ipo=images",
+     "p_name":"Apple",
+     "p_id":1,
+     "p_cost":30,
+     "p_availability":1,
+    "p_details":"Imported from Swiss",
+    "p_category":"Premium"
+    },
+   {
+    "imageURL" :"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngarts.com%2Ffiles%2F1%2FMango-PNG-High-Quality-Image.png&f=1&nofb=1&ipt=abdf9ef876b78b56a6c4e78fd137f73cd37d0e41cb4ef8177e74e29f9160ce1d&ipo=images",
+     "p_name":"Mango",
+     "p_id":2,
+     "p_cost":50,
+     "p_availability":1, 
+     "p_details":"Farmed at Selam",
+     "p_category":"Tamilnadu"
+    },
+
+    {
+     "imageURL" :"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngpix.com%2Fwp-content%2Fuploads%2F2016%2F03%2FBanana-Bunch-PNG-image-1.png&f=1&nofb=1&ipt=2b21a8e97e7bb768726874568142efdb5f87f2bd9d069b92af4a90b9fb6ef7f5&ipo=images",
+     "p_name":"Bananna",
+     "p_id":3,
+     "p_cost":5, 
+     "p_availability":0 ,
+     "p_details": "",
+     "p_category":""
+
+    },
+  
+{ 
+    "imageURL" :"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-AFFnTWMiiWg%2FU8abduL8PUI%2FAAAAAAAABjg%2FvK7C79zb9OM%2Fs1600%2F7.png&f=1&nofb=1&ipt=1abc3409ab3b9ee5bf1ece8529bde2052efd9c7fa65afcd5dcf2632e995c2819&ipo=images",
+     "p_name":"Orange", 
+     "p_id":4,
+     "p_cost":25,
+     "p_availability":1,
+     "p_details":"from Nagpur",
+     "p_category":"Premium"
+}
+ 
+]
